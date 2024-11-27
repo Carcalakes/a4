@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAWSAQ Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="market-container">
+        <h2>BAWSAQ Stock Market</h2>
+        <div class="stock-table">
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Stock Price</th>
+                    <th>Buy</th>
+                </tr>
+                <tr>
+                    <td>FlyUS</td>
+                    <td id="flyusPrice">$50</td>
+                    <td><button onclick="buyStock('FlyUS', 50)">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Grotti</td>
+                    <td id="grottiPrice">$120</td>
+                    <td><button onclick="buyStock('Grotti', 120)">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Maze Bank</td>
+                    <td id="mazePrice">$200</td>
+                    <td><button onclick="buyStock('Maze Bank', 200)">Buy</button></td>
+                </tr>
+            </table>
+        </div>
+        <p><a href="portfolio.html">Go to Portfolio</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
